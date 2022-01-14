@@ -1,4 +1,6 @@
 
+/*자바스크립트 챌린지 1번 문제.*/ 
+/*
 const h2 = document.querySelector("h2");
 
 const superEventHandler = {
@@ -24,3 +26,21 @@ h2.addEventListener("mouseenter", superEventHandler.handleMouseEnter);
 h2.addEventListener("mouseleave", superEventHandler.handleMouseLeave);
 window.addEventListener("resize", superEventHandler.handleWindowResize);
 window.addEventListener("contextmenu", superEventHandler.handleMouseRightClick);
+*/
+
+/*자바스크립트 챌린지 1번 문제*/
+const body = document.body;
+
+function windowResize(){
+  let width = window.innerWidth;
+
+  if(width > 1000){
+    body.style.backgroundColor = "yellow";
+  } else if (width <= 1000 && width > 700){
+    body.style.backgroundColor = "purple";
+  } else {
+    body.style.backgroundColor = "blue";
+  }
+};
+
+window.addEventListener("resize", windowResize);
