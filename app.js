@@ -28,6 +28,7 @@ window.addEventListener("resize", superEventHandler.handleWindowResize);
 window.addEventListener("contextmenu", superEventHandler.handleMouseRightClick);
 */
 
+
 /*자바스크립트 챌린지 1번 문제*/
 const body = document.body;
 
