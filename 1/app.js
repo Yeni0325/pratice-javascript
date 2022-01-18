@@ -30,6 +30,7 @@ window.addEventListener("contextmenu", superEventHandler.handleMouseRightClick);
 
 
 /*자바스크립트 챌린지 2번 문제*/
+/*
 const body = document.body;
 
 function windowResize(){
@@ -45,3 +46,4 @@ function windowResize(){
 };
 
 window.addEventListener("resize", windowResize);
+*/
