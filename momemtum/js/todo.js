@@ -3,6 +3,7 @@ const toDoInput = toDoForm.querySelector("input");   // = document.querySelector
 const todoList = document.getElementById("todo-list");
 
 function paintToDo(newTodo){
+    
     console.log("i will paint", newTodo);
 }
 
