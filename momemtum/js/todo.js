@@ -4,7 +4,12 @@ const todoList = document.getElementById("todo-list");
 
 function paintToDo(newTodo){
     
-    console.log("i will paint", newTodo);
+    const li = document.createElement("li");
+    const span = document.createElement("span");
+    li.appendChild(span); // li는 span을 자식으로 가지게됨!
+    span.innerText = newTodo;
+    todoList.appendChild(li);
+
 }
 
 function handleTodoSubmit(event){
